@@ -4,6 +4,7 @@ import Data from "./Data";
 const BuildResume = () => {
     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
         "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        
     //TODO getTime()
     return (
         Data.map((candidate, index) => {
@@ -25,7 +26,6 @@ const BuildResume = () => {
                         </h4>
                     </h4>
                         : ''}
-
                     <br />
                 </p>)
         })
